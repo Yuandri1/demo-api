@@ -1,14 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "success": true,
+  "message": "Success",
+  "data": [
+    {
+      "nosj": "22345",
+      "tipe": "DRY",
+      "tanggal": null,
+      "kdmobil": "MBL114",
+      "toko": [
+        {
+          "kdtoko": "TOK1",
+          "nmtoko": "TOKO F",
+          "urut": "1"
+        },
+        {
+          "kdtoko": "TOK2",
+          "nmtoko": "TOKO E",
+          "urut": "2"
+        },
+        {
+          "kdtoko": "TOK3",
+          "nmtoko": "TOKO D",
+          "urut": "3"
+        }
+      ]
+    },
+    {
+      "nosj": "54321",
+      "tipe": "DRY",
+      "tanggal": "2025-08-24T20:06:34.178257",
+      "kdmobil": "MBL206",
+      "toko": [
+        {
+          "kdtoko": "TOX1",
+          "nmtoko": "TOKO C",
+          "urut": "1"
+        },
+        {
+          "kdtoko": "TOX2",
+          "nmtoko": "TOKO B",
+          "urut": "2"
+        },
+        {
+          "kdtoko": "TOX3",
+          "nmtoko": "TOKO A",
+          "urut": "3"
+        }
+      ]
+    }
+  ]
 }
